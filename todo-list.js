@@ -11,7 +11,7 @@ function AddTodo(){
 
   todoDate.value = '';
   todoName.value = '';
-
+  
   renderTodoList();
 }
 
