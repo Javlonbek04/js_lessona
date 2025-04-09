@@ -3,8 +3,6 @@ let todoList = [];
 function AddTodo(){
   const todoName = document.querySelector('.js-name-input');
   const todoDate = document.querySelector('.js-date-input');
-  console.log("salom");
-  
 
   todoName.value && todoList.push({
     'name': todoName.value,
